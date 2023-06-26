@@ -16,7 +16,7 @@ if(pesos){
         const priceContainer = document.querySelector('.ui-pdp-price__second-line')
         const dolarChild = document.createElement('span')
         dolarChild.classList.add('priceConverted')
-        dolarChild.innerText = pesosConversion.toFixed(2) + 'USD'
+        dolarChild.innerText = pesosConversion.toFixed(2) + ' USD'
         priceContainer.appendChild(dolarChild)
 
     })
