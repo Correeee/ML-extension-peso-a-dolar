@@ -1,5 +1,5 @@
 .priceConverted {
-    padding: 0 1rem;
+    padding: 0 0.25rem;
     margin: 0 0.25rem;
     font-size: 1.5rem;
     color: rgb(0, 179, 0);
@@ -15,4 +15,5 @@
         0px 0px 33.4px rgba(0, 0, 0, 0.014),
         0px 0px 80px rgba(0, 0, 0, 0.02);
     user-select: none;
+    text-align: center;
 }
