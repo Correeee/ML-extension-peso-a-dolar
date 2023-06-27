@@ -1,7 +1,6 @@
 let dolarBlueVenta = 0
 
-const pesos = document.querySelector('.andes-money-amount__fraction').textContent
-
+const pesos = document.querySelector('.ui-pdp-price__second-line span .andes-money-amount__fraction').textContent
 if(pesos){
     fetch('https://api.bluelytics.com.ar/v2/latest')
     .then(response => response.json())
