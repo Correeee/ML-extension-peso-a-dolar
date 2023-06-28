@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "ML peso a dólar",
-    "description": "Muestra el precio en dólares de los productos de Mercadolibre.",
+    "name": "Despegar peso a dólar",
+    "description": "Muestra el precio en dólares de los productos de Despegar.",
     "version": "1.0",
     "icons": {
         "16": "images/icon-16.png",
@@ -15,9 +15,11 @@
                 "scripts/content.js"
             ],
             "matches": [
-                "https://www.mercadolibre.com.ar/*",
-                "https://www.mercadolibre.com/*",
-                "https://articulo.mercadolibre.com.ar/*"
+                "https://www.despegar.com/*",
+                "https://www.despegar.com.ar/*"
+            ],
+            "exclude_matches":[
+                "https://www.despegar.com.ar/trip/accommodations/detail/*"
             ],
             "css": [
                 "style/style.css"
