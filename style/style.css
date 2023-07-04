@@ -1,25 +1,6 @@
 .priceConverted {
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 0.10rem;
-    color: white;
-    background-color: #270570;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 1px solid white;
-    box-shadow:
-        0px 0px 2.2px rgba(0, 0, 0, 0.006),
-        0px 0px 5.3px rgba(0, 0, 0, 0.008),
-        0px 0px 10px rgba(0, 0, 0, 0.01),
-        0px 0px 17.9px rgba(0, 0, 0, 0.012),
-        0px 0px 33.4px rgba(0, 0, 0, 0.014),
-        0px 0px 80px rgba(0, 0, 0, 0.02);
-    user-select: none;
-    text-align: center;
-}
-
-<<<<<<< HEAD
-.priceConvertedHome{
-    font-size: 1rem;
     color: rgb(0, 179, 0);
     background-color: #F0D02F;
     font-weight: bold;
@@ -34,23 +15,4 @@
         0px 0px 80px rgba(0, 0, 0, 0.02);
     user-select: none;
     text-align: center;
-=======
-.div__priceConvertedDiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5rem 0;
-}
-
-.div__priceConvertedDivOffer{
-    margin: 0;
-}
-
-.div__priceConvertedDivFinalPrice{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
->>>>>>> 0aa85735a026700dcb88eb4734cddeb12468c5b9
 }
